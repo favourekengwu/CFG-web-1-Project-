@@ -156,9 +156,9 @@ li {
 }
 
 h1{
-    position: absolute;
+    position: fixed;
     top: 44%;
-    text-align: center;
+    text-align: left;
     color:white;
     font-size: 500%;
     width: 100%;
