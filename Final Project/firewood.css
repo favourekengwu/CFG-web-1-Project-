@@ -3,7 +3,6 @@
     flex-direction: column;
     min-height: 100vh;
     margin: 0px;
-    color: #202124;
     font-family: arial, sans-serif;
   } */
 
@@ -239,7 +238,7 @@ video{
  .entry{
   color: white;
  }
-.title{
+#title{
  color: white;
 }
 
