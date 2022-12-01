@@ -1,0 +1,242 @@
+ /* body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0px;
+    color: #202124;
+    font-family: arial, sans-serif;
+  } */
+  
+  Header style
+  header {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding: 20px 20px 0px 0px;
+    width: 1000px;
+    height: 235px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  
+  /*header > nav > ul > li > a {
+   color: #202124;
+   text-decoration: none;
+  } */
+  
+  /* Main section (Google logo) */
+  
+   main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #search-container {
+    width: 300vw;
+  }
+  
+  #search-box {
+    height: 60px;
+    width: 80%;
+    padding: 0px 30px;
+    line-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Tablet */
+ /* @media only screen and (min-width: 768px) {
+    #search-box {
+      width: 600px;
+    }
+  }/*/
+  
+  
+  
+  body > div > button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 25px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: left;
+    cursor: pointer;
+    display:block;
+  }
+
+  /* Footer style */
+  /*footer {
+    background-color: #f2f2f2;
+  }
+  
+  footer > ul {
+    padding: 20px;
+    justify-content: left;
+    color: #70757a;
+  /* } */
+  html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:22px;
+    background-color:black;
+    color:antiquewhite;
+    padding-left: 100px;
+    padding-right: 100px;
+
+ }  
+ button{
+  
+  width: 300px;
+  height: 40px;
+ }
+ menu{
+    width: 1000px;
+    height: 65px;
+    margin: 0 auto;
+    padding: 100;
+ }
+  #search-button{
+  display: inline-block;
+   
+ }
+
+nav {
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    z-index: 100;
+    display: inline-block;
+    align-items: flex;
+    right: 0;
+    width: 100%;
+
+    
+}
+
+ul {
+    list-style: none;
+    margin: 100, auto;
+    line-height: 0.5;
+    text-align: center;
+    display: inline-block;
+    position:fixed;
+    width: 100%;
+
+
+
+}
+  
+li {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 100px;
+    color: antiquewhite;
+    
+}
+
+.back-img{
+    background-image: url(Resources/treeline.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.title>h1{
+    position: absolute;
+    top: 44%;
+    text-align: center;
+    color:white;
+    font-size: 500%;
+    width: 100%;
+    
+}
+ 
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 20px;
+}
+
+.types{
+    display:inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}/*/
+#entry{
+  padding: 25px 0px 0px 0px;
+    text-align: justify;
+  display: block;
+}
+/*/
+video{
+    display: block;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: absolute, 500px left, 500px right; 
+
+}/*
+
+/*.types h4{
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.container h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+} */
+
+.footer{
+    display: inline-block;
+    position: fixed;
+    max-width: 100px;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: center;
+    height: 400px;
+
+} 
+ #button{
+  display: inline-block;
+  text-align: center;
+
+ }
+
