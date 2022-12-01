@@ -6,7 +6,7 @@
     color: #202124;
     font-family: arial, sans-serif;
   } */
-  
+
   Header style
   header {
     list-style: none;
@@ -22,14 +22,14 @@
     margin: 0 auto;
     padding: 0px;
   }
-  
+
   /*header > nav > ul > li > a {
    color: #202124;
    text-decoration: none;
   } */
-  
+
   /* Main section (Google logo) */
-  
+
    main {
     flex-grow: 1;
     display: flex;
@@ -40,7 +40,7 @@
   #search-container {
     width: 300vw;
   }
-  
+
   #search-box {
     height: 60px;
     width: 80%;
@@ -54,16 +54,16 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  
+
   /* Tablet */
  /* @media only screen and (min-width: 768px) {
     #search-box {
       width: 600px;
     }
   }/*/
-  
-  
-  
+
+
+
   body > div > button {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -85,24 +85,16 @@
   /*footer {
     background-color: #f2f2f2;
   }
-  
+
   footer > ul {
     padding: 20px;
     justify-content: left;
     color: #70757a;
   /* } */
 
-  html{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:22px;
-    background-color:black;
-    color:antiquewhite;
-    padding-left: 100px;
-    padding-right: 100px;
 
- }  
  button{
-  
+
   width: 300px;
   height: 40px;
  }
@@ -114,7 +106,7 @@
  }
   #search-button{
   display: inline-block;
-   
+
  }
 
 nav {
@@ -132,7 +124,7 @@ nav {
     right: 0;
     width: 100%;
 
-    
+
 }
 
 ul {
@@ -147,13 +139,13 @@ ul {
 
 
 }
-  
+
 li {
     display: inline-block;
     text-decoration: none;
     padding-right: 100px;
     color: antiquewhite;
-    
+
 }
 
 .back-img{
@@ -171,9 +163,9 @@ li {
     color:white;
     font-size: 500%;
     width: 100%;
-    
+
 }
- 
+
 h2{
     text-align: center;
 }
@@ -205,7 +197,7 @@ video{
     margin: auto;
     padding-left: 100px;
     padding-right: 100px;
-    position: absolute, 500px left, 500px right; 
+    position: absolute, 500px left, 500px right;
 
 }/*
 
@@ -234,10 +226,14 @@ video{
     justify-content: center;
     height: 400px;
 
-} 
+}
  #button{
   display: inline-block;
   text-align: center;
 
+ }
+
+ .entry{
+  color: white;
  }
 

@@ -1,8 +1,7 @@
-html{
+html    {
     font-family: Arial, Helvetica, sans-serif;
     font-size:22px;
     background-color:black;
-    color:antiquewhite;
 
 }
 
@@ -21,10 +20,17 @@ nav {
     right: 0;
     width: 100%;
 
-    
+
 }
 
-ul {
+
+
+.logoColour {
+    color: antiquewhite;
+
+ }
+
+ nav  ul {
     list-style: none;
     margin: 100, auto;
     line-height: 0.5;
@@ -32,22 +38,18 @@ ul {
     display: inline-block;
     position:fixed;
     width: 100%;
-
-
+    color:antiquewhite;
 
 }
 
-.logoColour {
-    color: antiquewhite;
-     
- }
-  
-li {
+nav  ul  li {
     display: inline-block;
     text-decoration: none;
     padding-right: 100px;
+}
+
+nav  ul  a > li {
     color: antiquewhite;
-    
 }
 
 .back-img{
@@ -65,7 +67,7 @@ li {
     color:black;
     font-size: 500%;
     width: 100%;
-    
+
 }
 
 #about>h2{
@@ -78,22 +80,22 @@ li {
 }
 
 .types{
-    display:inline-flex;
-    max-width: 1000px;
-    height: auto;
-    flex-wrap: wrap;
-    align-items: center;
+    display: flex;
+    gap: 20px;
     justify-content: center;
-    padding-left: 250px;
-    padding-right: 250px;
-
 }
 
-.types img{
-    padding-left: 100px;
-    padding-right: 100px;
-
+.types .tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
+
+.types .tree a{
+    text-decoration: none;
+    color: black;
+ }
 
 .types h4{
     padding-left: 150px;
@@ -129,25 +131,25 @@ li {
 }
 
 .description {
-    text-align: center; 
-    font-size: 20px; 
+    text-align: center;
+    font-size: 20px;
     font-weight: bold;
-    color: #333; 
-    padding-top: 20px; 
+    color: #333;
+    padding-top: 20px;
     height: 120px;
     position: relative;
 }
 
 .price {
-    color: rgb(204,51,255); 
-    position: absolute; 
-    bottom: 20px; 
+    color: rgb(204,51,255);
+    position: absolute;
+    bottom: 20px;
     width: 234px;
 }
 
 .container {
     width of 1000px.
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -176,12 +178,12 @@ li {
     height: 40px;
 }
 
-form { 
+form {
 background-color: #ccc
 width: 998px
-clear: both; 
+clear: both;
 padding: 20px;
-position: relative; 
+position: relative;
 top: 20px;
 }
 
@@ -193,7 +195,4 @@ top: 20px;
     text-align: center;
 }
 
-.tree a{
-   text-decoration: none; 
-   color: black;
-}
+

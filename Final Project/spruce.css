@@ -1,18 +1,9 @@
-html{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:22px;
-    background-color:black;
-    color:antiquewhite;
-
-}
-
 nav {
     background-color: black;
     color: white;
     opacity: 0.9;
     height: 50px;
     width: 100%;
-    position: fixed;
     top: 0;
     margin: 0;
     z-index: 100;
@@ -21,7 +12,7 @@ nav {
     right: 0;
     width: 100%;
 
-    
+
 }
 
 .column {
@@ -38,8 +29,7 @@ li {
     display: inline-block;
     text-decoration: none;
     padding-right: 100px;
-    color: antiquewhite;
-    
+
 }
 
 .title>h1{
