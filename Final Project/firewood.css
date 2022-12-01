@@ -167,7 +167,7 @@ h1{
 }
 
 h2{
-    colour: white;
+    color: white;
     text-align: center;
 }
 
@@ -227,7 +227,7 @@ video{
     align-items: left;
     justify-content: center;
     height: 400px;
-    colour: white;
+    color: white;
 
 }
  #button{
@@ -239,4 +239,7 @@ video{
  .entry{
   color: white;
  }
+.title{
+ color: white;
+}
 
