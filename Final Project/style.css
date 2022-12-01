@@ -183,3 +183,12 @@ clear: both;
 padding: 20px;
 position: relative; 
 top: 20px;
+}
+
+.container2 img{
+    margin-left: 30%;
+}
+
+.container2 h2{
+    text-align: center;
+}
